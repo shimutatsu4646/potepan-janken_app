@@ -21,14 +21,13 @@ def which_direction(direction)
   end
 end
 
+
 # 変数の宣言・初期化
 select_direction = 0
 enemy_direction = 1
 select_hand = 0
 enemy_hand = 0
 winner = "unknown"
-
-# ================以下、条件分岐=====================
 
 until select_direction == enemy_direction
   while select_hand == enemy_hand
@@ -96,11 +95,6 @@ until select_direction == enemy_direction
   
   puts "-----------------------"
 end
-
-# =============上記、条件分岐===============
-
-
-
 
 if winner == 1
     puts "あなたの勝ちです。おめでとうございます！"
